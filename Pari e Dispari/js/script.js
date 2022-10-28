@@ -8,7 +8,7 @@ Dichiariamo chi ha vinto.*/
 let scelta;
 do{
     scelta = prompt('Scegliere fra Pari o Dispari')
-} while (scelta !== 'pari'); // || (scelta !== 'dispari')) while(scelta == '')
+} while (scelta !== 'pari' && scelta !== 'dispari' && scelta !== 'NaN');
 
 console.log(scelta);
 
